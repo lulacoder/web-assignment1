@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    background-color: rgb(243, 247, 249);
+}
+
+header{
+    text-align: center;
+    background-color: rgb(168, 240, 168);
+    height: 80px;
+}
+header h1{
+    padding-top: 15px;
+    
+}
+nav {
+    display: flex;
+    justify-content: center; /* Center the items horizontally within the nav bar */
+    align-items: center;  
+    padding-top: 5px;
+   
+       /* Center the items vertically within the nav bar */
+  }
+nav ul{
+    display: flexbox;
+    justify-content: center;
+      
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+
+    
+}
+nav ul li a{
+    color: green;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+#header1{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+#header2{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+#header3{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#section1{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 15px;
+}
+#section2{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 15px;
+}
+
+
+#section3{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 15px;
+ 
+}
+.product{
+    background-color: white;
+    text-align: center;
+    width: 295px;
+    height: 490px;
+    box-shadow: 0 4px 8px rbg(0,0,0.1);
+    border-radius: 10px;
+
+    
+}
+footer{
+    display: flex;
+    text-align: center;
+    height: 50px;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.price{
+    color:rgb(119, 234, 119);
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+.ptitle{
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+img{
+    width: 180px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.description{
+    font-family: serif;
+    padding-bottom: 20px;
+
+}
