@@ -46,6 +46,7 @@ nav ul li a{
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
+    text-align: left;
 
 }
 #header2{
@@ -61,6 +62,7 @@ nav ul li a{
 
 #section1{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-left: 30px;
     padding-right: 30px;
@@ -68,6 +70,7 @@ nav ul li a{
 }
 #section2{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-left: 30px;
     padding-right: 30px;
@@ -77,6 +80,7 @@ nav ul li a{
 
 #section3{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-left: 30px;
     padding-right: 30px;
@@ -125,4 +129,13 @@ img{
     font-family: serif;
     padding-bottom: 20px;
 
+}
+@media (max-width: 600px){
+    .product{
+        flex: 1 1 100%; 
+
+    }
+    img{
+        width: 60%
+    }
 }
